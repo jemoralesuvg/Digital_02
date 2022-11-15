@@ -1,0 +1,5 @@
+"./main_input.obj"
+"./tm4c1233h6pm_startup_ccs.obj"
+"/home/kurt/bin/code_composer/install_files/tivaware-2.2.0.295/driverlib/ccs/Debug/driverlib.lib"
+"../tm4c1233h6pm.cmd"
+-llibc.a
