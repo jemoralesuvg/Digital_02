@@ -5,8 +5,8 @@
  *	Basado en ili9341_light.c de "tabur"
  */
 
-#ifndef ILI9341_8_BITS_H_
-#define ILI9341_8_BITS_H_
+#ifndef ILI9341_8_BITS_FAST_H_
+#define ILI9341_8_BITS_FAST_H_
 
 #include <energia.h>
 #include "lcd_registers.h"
@@ -123,7 +123,7 @@
 //class Lcd16
 //{
 //	public:
-	void lcdSetDataPins(int DPINS[8]);
+	//void lcdSetDataPins(int DPINS[8]);
 	void lcdInit(void);
 	void lcdClear(short c);
 	void SetWindows(unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2);
