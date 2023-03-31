@@ -8,13 +8,11 @@
 //#define LCD_WR PD_3
 //#define LCD_RD PA_6
 // hay que modificar los pines en la librería
-int DPINS[] = {PB_0, PB_1, PB_2, PB_3, PB_4, PB_5, PB_6, PB_7};
+// DPINS[] = {PB_0, PB_1, PB_2, PB_3, PB_4, PB_5, PB_6, PB_7};
 
 #include "bitmaps.h"
 
-void setup() {
-  
-  lcdSetDataPins(DPINS);
+void setup() {  
   Serial.begin(9600);
   Serial.println("Iniciando pantalla...");
   lcdInit();
